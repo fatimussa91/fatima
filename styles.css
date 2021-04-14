@@ -1,3 +1,10 @@
 body{
-	background-color: #00df2e
+	background-color: #DC143C;
+}
+#fatima{
+	text-align: center;
+}
+#firstline{
+	font-size: 20px;
+	color: #FFFA0F;
 }
