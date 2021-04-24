@@ -1,13 +1,154 @@
 
-body{
-	background-color: #DC143C;
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 
-#fatima{
-	text-align: center;
+
+.container {
+    max-width: 1024px;
+    margin: 100px auto 0;
 }
 
-#firstline{
-	font-size: 20px;
-	color: #FFFA0F;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #FFE4C4;
+}
+
+header .name {
+    width: 65%;
+    padding-top: 2px;
+}
+
+header .image {
+    width: 35%;
+}
+
+header .image img {
+    max-width: 265px;
+}
+
+header h1 {
+    font-size: 80px;
+    letter-spacing: -3px;
+}
+
+header h2 {
+    font-weight: 80;
+    font-size: 30px;
+    margin-bottom: -10px;
+    margin-left: 2px;
+}
+
+section {
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section article {
+    border-right: 1px solid;
+    padding-right: 15px;
+    width: 65%;
+    background-color: white;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+section article img {
+    max-width: 100px;
+}
+
+section aside {
+    width: 35%;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+section aside div {
+    font-size: 14px;
+    padding: 1px 0;
+}
+
+section aside a {
+    text-decoration: none;
+}
+
+section aside a:hover {
+    text-decoration: underline;
+}
+
+section article h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section aside h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form input {
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.bol {
+ font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.date
+{
+color: gray;
+font-size: 14px;
 }
