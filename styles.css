@@ -47,6 +47,25 @@ header h2 {
     margin-left: 2px;
 }
 
+.navbar{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px;
+}
+
 section {
     margin-top: 20px;
     margin-left: 5px;

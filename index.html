@@ -6,86 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatima Mussa</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 	<style type="text/css">
 		body{
-			background-color: #FFC0CB;
+			background-color: #FFE4E1;
 		}
-		@media screen and (max-width: 480px){
-	    		header {
-    				display: flex;
-    				flex-direction: column;
-				background-color: #FFC0CB;
-				}
+		.image1{
+			display: block;
+			margin-left: auto;
+			margin-right:auto ;
+			width: 50%;
 
-				header .name {
-				    width: 100%;
-				}
+		}
+		
 
-				header .image {
-				    width: 100%;
-				}
-					
-			}
+		.name {
+			display: block;
+			margin-left: auto;
+			margin-right:auto ;
+			text-align: center;
+		    width: 65%;
+		    padding-top: 2px;
+		
+        }
 	</style>
 </head>
+
 <body>
-	<header>
+	
+		<div class="navbar">
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="myResume.html">Über mich</a></li>
+			  <li><a href="myCV.html">Lebenslauf</a></li>
+			  <li><a href="certificates.html">Zeugnisse</a></li>
+			</ul>
+		</div>
 	   <div class="name">
                 <h2>Medien.-u.Kommunik.informatik Studentin</h2>
                 <h1>FATIMA MUSSA</h1>
             </div>
-            <div class="image">
-                <img src="./image/fatima.jpg" alt="">
-            </div>
-       </header>
-    <section>
-	<div>
-		<p style="color:red; font-weight: bold; ">To know more pls login</p>
+           
+      
+       <div class="image1">
+	                <img src="./image/fatima.jpg" alt="">
+	            </div>
 
-		<form action="">
-			<div class="form">
-    			<label for="uname"><b>Username</b></label>
-    			<input type="text" placeholder="Enter Username" name="uname" required>
-
-   				 <label for="psw"><b>Password</b></label>
-   				 <input type="password" placeholder="Enter Password" name="psw" required>
-
-    			<button type="button" value= "login" onClick="pasuser(this.form)">Login</button>
-  			</div>
-
-		</form>
-
-	</div>
-
-	<aside>
-		
-		 <div>
-                    <h3>Kontakt</h3>
-
-                    <div>
-                        <a href="mailto:fatima-mussa1991@windowslive.com">fatima-mussa1991@windowslive.com</a>
-                    </div>
-                    <div>
-                    	<a href="https://www.linkedin.com/in/fatima-mussa/" target="_blank">Linkedin: Fatima Mussa</a>
-                    </div>
-                </div>
-
-                <div>
-                    <h3>Ich bin</h3>
-                    <p>wissbegierig
-                        <br>
-                        selbständig
-                        <br>
-                        offen, auch interkulturell
-                        <br>
-                        flexibe
-                    </p>
-                </div>
-
-	</aside>
-	</section>
+	<footer>
+		  <a href="myResume.html" class="next">Next &raquo;</a>
+	    </footer>
 
 	<script src="script.js"></script>
 </body>

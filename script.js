@@ -1,3 +1,4 @@
+/*
 function pasuser(form) {
 if (form.uname.value=="hallofa" && form.psw.value=="3920-fa") {             
 location="myResume.html" 
@@ -5,3 +6,4 @@ location="myResume.html"
 alert("Invalid Username or Password")
 }
 }
+*/
