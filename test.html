@@ -3,14 +3,10 @@
 <head>
 	<title>Rechnen</title>
 
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
 	<style type="text/css">
-		
-			header {
-			    display: flex;
-			    flex-direction: row;
-			    justify-content: space-around;
-			    background-color: #FFE4C4;
-			}
+	
 
 		#rechnen{
 			display: flex;
@@ -21,36 +17,30 @@
 
 	    #addition, #subtraktion, #multiplikation, #division {
 	        background-color: #e06f6f;
-	        height: 180px;
+	        height: 200px;
 	        width: 200px;
-	        border-radius: 10px;
 	        margin-left: 20px;
 	      
 	    }
 
-	    footer a {
-		  text-decoration: none;
-		  display: inline-block;
-		  padding: 8px 16px;
-		}
-
-		a:hover {
-		  background-color: #ddd;
-		  color: black;
-		}
-
-	    .previous {
-			  background-color: #f1f1f1;
-			  color: black;
-			}
-
+	    
 
 	</style>
 </head>
 <body>
+		<div class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a  href="myResume.html">Über mich</a></li>
+              <li><a href="myCV.html">Lebenslauf</a></li>
+              <li><a href="certificates.html">Zeugnisse</a></li>
+              <li><a class="active" href="myCV.html">Rechnen</a></li>
+            </ul>
+        </div>
 	<header>
 		
-		<h1>Simpel Rechnen</h1>
+		<h1>Rechnen</h1>
+	
 		
 	</header>
 	<div id="rechnen">
@@ -63,7 +53,7 @@
         Zahl 2 : <input type="text"  id="wert2" >
 
         <button type="button" id="add" >+</button>
-        <input type="text" id="result1">
+       Ergebnis : <input type="text" id="result1">
       </fieldset>
     </form>
 
@@ -78,7 +68,7 @@
         Zahl 2 : <input type="text"  id="wert4" >
 
         <button type="button" id="sub" >-</button>
-        <input type="text" id="result2">
+      Ergebnis :  <input type="text" id="result2">
       </fieldset>
     </form>
 
@@ -91,7 +81,7 @@
         Zahl 2 : <input type="text"  id="wert6" >
 
         <button type="button" id="mult" >*</button>
-        <input type="text" id="result3">
+      Ergebnis :  <input type="text" id="result3">
       </fieldset>
     </form>
 
@@ -104,7 +94,7 @@
         Zahl 2 : <input type="text"  id="wert8" >
 
         <button type="button" id="div" >/</button>
-        <input type="text" id="result4">
+     Ergebnis :   <input type="text" id="result4">
       </fieldset>
     </form>
     </div>
