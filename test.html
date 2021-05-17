@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rechnen</title>
+
+	<style type="text/css">
+		
+			header {
+			    display: flex;
+			    flex-direction: row;
+			    justify-content: space-around;
+			    background-color: #FFE4C4;
+			}
+
+		#rechnen{
+			display: flex;
+			flex-direction: row;
+			margin-top: 15px;
+
+		}	
+
+	    #addition, #subtraktion, #multiplikation, #division {
+	        background-color: #e06f6f;
+	        height: 180px;
+	        width: 200px;
+	        border-radius: 10px;
+	        margin-left: 20px;
+	      
+	    }
+
+	    footer a {
+		  text-decoration: none;
+		  display: inline-block;
+		  padding: 8px 16px;
+		}
+
+		a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+
+	    .previous {
+			  background-color: #f1f1f1;
+			  color: black;
+			}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		
+		<h1>Simpel Rechnen</h1>
+		
+	</header>
+	<div id="rechnen">
+    <form id="addition">
+      <fieldset>
+        <legend>Addition</legend>
+        Zahl 1 : <input type="text"  id="wert1" >
+  
+
+        Zahl 2 : <input type="text"  id="wert2" >
+
+        <button type="button" id="add" >+</button>
+        <input type="text" id="result1">
+      </fieldset>
+    </form>
+
+   
+
+    <form id="subtraktion">
+      <fieldset>
+        <legend>Subtraktion</legend>
+        Zahl 1 : <input type="text"  id="wert3" >
+  
+
+        Zahl 2 : <input type="text"  id="wert4" >
+
+        <button type="button" id="sub" >-</button>
+        <input type="text" id="result2">
+      </fieldset>
+    </form>
+
+    <form id="multiplikation">
+      <fieldset>
+        <legend>Multiplikation</legend>
+        Zahl 1 : <input type="text"  id="wert5" >
+  
+
+        Zahl 2 : <input type="text"  id="wert6" >
+
+        <button type="button" id="mult" >*</button>
+        <input type="text" id="result3">
+      </fieldset>
+    </form>
+
+     <form id="division">
+      <fieldset>
+        <legend>Division</legend>
+        Zahl 1 : <input type="text"  id="wert7" >
+  
+
+        Zahl 2 : <input type="text"  id="wert8" >
+
+        <button type="button" id="div" >/</button>
+        <input type="text" id="result4">
+      </fieldset>
+    </form>
+    </div>
+
+    <footer>
+    	 <a href="certificates.html" class="previous">&laquo; Previous</a>
+    </footer>
+
+
+    <script  src="script.js"></script>
+</body>
+</html>
