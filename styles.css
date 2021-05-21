@@ -7,6 +7,10 @@ html {
     color: #333;
     font-family: 'Roboto', sans-serif;
 }
+body{
+
+  background-color: #F0F8FF;
+}
 
 
 .container {
@@ -19,7 +23,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    background-color: #FFE4C4;
+    background-color: #F5F5F5;
 }
 
 header .name {
