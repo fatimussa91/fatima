@@ -19,9 +19,15 @@
 	        background-color: #e06f6f;
 	        height: 200px;
 	        width: 200px;
-	        margin-left: 20px;
+	        margin:10px 0 0 20px;
 	      
 	    }
+      .pr_n{
+        height: 30%;
+          width: 30%;
+          background-color: #D8BFD8;
+           margin:10px 0 10px 20px;
+      }
 
 	    
 
@@ -52,7 +58,7 @@
 
         Zahl 2 : <input type="text"  id="wert2" >
 
-        <button type="button" id="add" >+</button>
+        <button type="button" id="add" >+</button><br>
        Ergebnis : <input type="text" id="result1">
       </fieldset>
     </form>
@@ -67,7 +73,7 @@
 
         Zahl 2 : <input type="text"  id="wert4" >
 
-        <button type="button" id="sub" >-</button>
+        <button type="button" id="sub" >-</button><br>
       Ergebnis :  <input type="text" id="result2">
       </fieldset>
     </form>
@@ -75,12 +81,12 @@
     <form id="multiplikation">
       <fieldset>
         <legend>Multiplikation</legend>
-        Zahl 1 : <input type="text"  id="wert5" >
+        Zahl 1 : <input type="text"  id="wert5" ><br>
   
 
         Zahl 2 : <input type="text"  id="wert6" >
 
-        <button type="button" id="mult" >*</button>
+        <button type="button" id="mult" >*</button><br>
       Ergebnis :  <input type="text" id="result3">
       </fieldset>
     </form>
@@ -93,11 +99,27 @@
 
         Zahl 2 : <input type="text"  id="wert8" >
 
-        <button type="button" id="div" >/</button>
+        <button type="button" id="div" >/</button><br>
      Ergebnis :   <input type="text" id="result4">
       </fieldset>
     </form>
     </div>
+    <br><hr>
+    <div class="pr_n">
+      <form>
+      <fieldset>
+        <legend>Primzahlen</legend>
+        <input type="number"  id="nr" placeholder="Write a number" >
+
+
+        <button type="button" id="btn" onclick = "isprim()">Click</button>
+       <p type="text" id="result"> </p>
+      </fieldset>
+    </form>
+
+    </div>
+    <hr>
+
 
     <footer>
     	 <a href="certificates.html" class="previous">&laquo; Previous</a>

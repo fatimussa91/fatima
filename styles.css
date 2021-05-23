@@ -172,7 +172,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 35%;
 }
 
 .bol {
@@ -187,3 +187,27 @@ color: gray;
 font-size: 14px;
 }
 
+hr{
+  border:  3px solid black;
+}
+
+  @media screen and (max-width: 480px){
+             header {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                header .name {
+                    width: 100%;
+                }
+
+                header .image {
+                    width: 100%;
+                }
+          .navbar li a {
+            display: inline-block;
+          padding: 3px;
+        }
+
+
+        }
